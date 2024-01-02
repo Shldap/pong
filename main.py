@@ -147,9 +147,6 @@ def game_loop(screen, player, enemy, clock, agent):
 
         # Check for game over condition
         if done:
-            # Perform end of episode logic
-            # ...
-
         # Clear the screen
         screen.fill((0, 0, 0))
 
